@@ -1,23 +1,23 @@
 # Basics of java
-##CORE JAVA [Programs] (https://github.com/Shailendra-Java/Basics-of-java)
+**CORE JAVA [Programs](https://github.com/Shailendra-Java/Basics-of-java)
 
-Java OOPS concepts, need for Java
-Classes and interfaces
-Objects, Constructor, fields, methods, variables, keywords
-Inheritance, method overloading and overriding, access specifiers
-jar file, javadocapi creation
-Package, comparing and printing objects
-final variable and initializing
-Bitwise operations, operators, data types
-Generic types, Date, Calendar, Joda
-Inner, anonymous classes
-String, String Buffer, Regular Expressions, arrays, switch statement
-Exception, Reflection, Clone, Assertion
-File Handling, IO package classes
-Enum type
-Multi-threading, concurrency
-Data structures, Collection framework, sorting
-JDBC, SQL, database concepts, drivers
+-- Java OOPS concepts, need for Java
+-- Classes and interfaces
+-- Objects, Constructor, fields, methods, variables, keywords
+-- Inheritance, method overloading and overriding, access specifiers
+-- jar file, javadocapi creation
+-- Package, comparing and printing objects
+-- final variable and initializing
+-- Bitwise operations, operators, data types
+-- Generic types, Date, Calendar, Joda
+-- Inner, anonymous classes
+-- String, String Buffer, Regular Expressions, arrays, switch statement
+-- Exception, Reflection, Clone, Assertion
+-- File Handling, IO package classes
+-- Enum type
+-- Multi-threading, concurrency
+-- Data structures, Collection framework, sorting
+-- JDBC, SQL, database concepts, drivers
 
 ##J2EE
 
