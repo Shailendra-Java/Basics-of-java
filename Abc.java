@@ -1,6 +1,6 @@
 public class Abc
 {
-	int x;
+	int num;
 	void xyz()
 	{
 		System.out.println("Method of Abc class");
