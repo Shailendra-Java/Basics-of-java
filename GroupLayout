@@ -1,0 +1,57 @@
+package com11;
+import javax.swing.GroupLayout;
+import javax.swing.JFrame;
+import javax.swing.JButton;
+public class GroupLayoutDemo extends JFrame
+{
+    JFrame frm;
+    JButton btn1,btn2,btn3,btn4;
+    
+    public GroupLayoutDemo()
+    {
+        frm = new JFrame("Layout");
+        btn1 = new JButton("Play");
+        btn2 = new JButton("View");
+        btn3 = new JButton("About");
+        btn4 = new JButton("Exit");
+       
+        GroupLayout gl = new GroupLayout (this.getContentPane());
+        getContentPane().setLayout(gl);
+        
+        GroupLayout.SequentialGroup sg = gl.createSequentialGroup();
+        GroupLayout.ParallelGroup pg1 = gl.createParallelGroup();
+        GroupLayout.ParallelGroup pg2 = gl.createParallelGroup();
+        
+        pg1.addComponent(btn1);
+        pg1.addComponent(btn2);
+        pg2.addComponent(btn3);
+        pg2.addComponent(btn4);
+        
+        sg.addGroup(pg1);
+        sg.addGroup(pg2);
+        
+       GroupLayout.SequentialGroup sg1 = gl.createSequentialGroup();
+        GroupLayout.ParallelGroup pg3 = gl.createParallelGroup();
+        GroupLayout.ParallelGroup pg4 = gl.createParallelGroup();
+        
+        pg3.addComponent(btn1);
+        pg3.addComponent(btn3);
+        pg4.addComponent(btn2);
+        pg4.addComponent(btn4);
+        
+        sg1.addGroup(pg3);
+        sg1.addGroup(pg4);
+        
+        gl.setHorizontalGroup(sg);
+        gl.setVerticalGroup(sg1);
+       
+        setSize(400, 400);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+    
+    public static void main(String[] args)
+    {
+        new GroupLayoutDemo();
+    }    
+}
