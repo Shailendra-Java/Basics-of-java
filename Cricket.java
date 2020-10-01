@@ -3,11 +3,11 @@ public class Cricket
 {
 	Scanner input;
 	String[][] players={{"Sikhar Dhawan","Opener"},{"Rohit Sharma","Opener"}
-						,{"Virat Kohli","First Down"},{"Ajinkya Rahade","Second Down"}
-						,{"Suresh Raina","Third Down"},{"Yuvraj Singh","Fourth Down"}
+						,{"Virat Kohli","First Down"},{"Mayank Agarwal","Second Down"}
+						,{"KL Rahul","Third Down"},{"Vijay Shankar","Fourth Down"}
 						,{"Hardik Pandya","Fifth Down"},{"M.S. Dhoni","Sixth Down"}
-						,{"Ravindra Jadeja","Seventh Down"},{"B. Kumar","Eighth Down"}
-						,{"Ashish Nehra","Ninth Down"}};
+						,{"Yuzvendra Chahal","Seventh Down"},{"B. Kumar","Eighth Down"}
+						,{"Jasprit Bumrah","Ninth Down"}};
 	int[][] score;
 	int over,ball,run;
 	boolean strike;
